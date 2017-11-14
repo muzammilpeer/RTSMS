@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<string name="scanning">Scanning...</string>   
+    <string name="menu_standard">Standard</string>
+    <string name="menu_metric">Metric</string>
+    <string name="hello">Hello World, MainPage!</string>
+    <string name="app_name">RTSMS</string>
+    <string name="homestatus_app">RTSMS</string>
+    <string name="set_preferences">RTSMS Settings Panel</string>
+    <string-array name="listArray">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array>
+    
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="listdistanceArray">
+        <item>2 Km</item>
+        <item>10 Km</item>
+        <item>20 Km</item>
+    </string-array>
+    <string-array name="listdistanceValues">
+        <item>2</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="listdateArray">
+        <item>Last hour</item>
+        <item>Today</item>
+        <item>Last 23 hr.</item>
+        <item>This week</item>
+    </string-array>
+    <string-array name="listdateValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="listriskArray">
+        <item>1+</item>
+        <item>2+</item>
+        <item>3+</item>
+        <item>4+</item>
+        <item>5+</item>
+        <item>6+</item>
+    </string-array>
+    <string-array name="listriskValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="listunitArray">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+    <string-array name="listunitValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="listtrackArray">
+        <item>AGPS</item>
+        <item>GPS</item>
+    </string-array>
+    <string-array name="listtrackValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

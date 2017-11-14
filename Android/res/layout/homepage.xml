@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/tabhost"
+	android:textColor="#000000"
+	android:background="@drawable/rtsmswallpaper_gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ScrollView
+    android:scrollbars="horizontal"
+	android:gravity="bottom"
+	android:layout_gravity="bottom"
+	android:id="@+id/widget102"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TabWidget
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:textColor="#000000"
+    android:id="@android:id/tabs"
+    />
+    </ScrollView>
+     <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/tabcontent"
+     >
+
+</FrameLayout>
+    
+    </TabHost>

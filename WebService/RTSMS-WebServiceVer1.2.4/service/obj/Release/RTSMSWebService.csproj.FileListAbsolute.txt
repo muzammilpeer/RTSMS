@@ -1,0 +1,30 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Categorization\RTSMSWebService\bin\RTSMSWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Categorization\RTSMSWebService\bin\RTSMSWebService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Categorization\RTSMSWebService\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Categorization\RTSMSWebService\obj\Release\RTSMSWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Categorization\RTSMSWebService\obj\Release\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\Backup Data\Categorization\RTSMSWebService\bin\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\Backup Data\Categorization\RTSMSWebService\bin\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\Backup Data\Categorization\RTSMSWebService\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\Backup Data\Categorization\RTSMSWebService\obj\Release\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\Backup Data\Categorization\RTSMSWebService\obj\Release\RTSMSWebService.pdb
+C:\inetpub\wwwroot\rtsms\bin\RTSMSWebService.dll
+C:\inetpub\wwwroot\rtsms\bin\RTSMSWebService.pdb
+C:\inetpub\wwwroot\rtsms\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\rtsms\obj\Release\RTSMSWebService.dll
+C:\inetpub\wwwroot\rtsms\obj\Release\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\rtsms\bin\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\rtsms\bin\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\rtsms\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\rtsms\obj\Release\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\rtsms\obj\Release\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\bin\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\bin\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\obj\Release\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\obj\Release\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\service\bin\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\service\bin\RTSMSWebService.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\service\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\service\obj\Release\RTSMSWebService.dll
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS-WebServiceVer1.2.4\service\obj\Release\RTSMSWebService.pdb

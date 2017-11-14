@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.rtsmsproject.www1"
+      android:versionCode="1"
+      android:versionName="1.1">
+    <application android:icon="@drawable/rtsmslogo" android:label="@string/app_name">
+       <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".MainPage" 		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+        <activity android:name=".Aboutme" android:label="RTSMS Aboutme" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.Aboutme" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".ImageActivity" android:label="RTSMS Aboutme" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.ImageActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RadarActivity" android:label="RTSMS RadarView" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.RadarActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeStatus" android:label="RTSMS - Home Status" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.HomeStatus" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Current" android:label="RTSMS - Home Status" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.Current" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DontGo" android:label="RTSMS - Don't Go" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.DontGo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Webview" android:label="RTSMS - WebView" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.WebView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".LastCates" android:label="RTSMS - Last Catastrophe" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.LastCates" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyNearBy" android:label="RTSMS - My Near By" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.MyNearBy" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Help" android:label="RTSMS - Help Manual" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.Help" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomePage" 		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+         android:label="RTSMS - Home Page" >
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.HomePage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".TodayEvent" android:label="RTSMS - Today Event" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.TodayEvent" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailView" android:label="RTSMS - Detail View" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.DetailView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".FirstActivity" android:label="RTSMS - Test" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.FirstActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Settings" android:label="RTSMS - Settings Panel" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.Settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserAccount" android:label="RTSMS - User Account Settings" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.UserAccount" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReminderSettings" android:label="RTSMS - Reminder Settings" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.ReminderSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlertSettings" android:label="RTSMS - Alert Settings" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.AlertSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" android:label="RTSMS - SignUp" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.SignUp" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+    
+        <activity android:name=".EventListTemplate" android:label="RTSMS - Event Template List" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.EventListTemplate" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+        <activity android:name=".HistoryEvent" android:label="RTSMS - History Event" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.HistoryEvent" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+        <activity android:name=".MyMap" android:label="RTSMS - Map View" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.MyMap" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+        <activity android:name=".MapsTagView" android:label="RTSMS - Map View" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.MapsTagView" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+        <activity android:name=".FutureEvent" android:label="RTSMS - Future Events" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+          <intent-filter>
+                <action android:name="com.rtsmsproject.www1.FutureEvent" />
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+
+        <activity android:name=".CircleOverlay"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.rtsmsproject.www1.CircleOverlay" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+		        android:name=".SettingsPanel"
+		        android:label="@string/set_preferences">
+		</activity>
+<!-- Service Section -->
+	    <service 
+	      android:name=".MyService"
+	      android:process=":remote">
+	      <intent-filter>
+	        <action
+	          android:name="com.rtsmsproject.www1.MyService" />
+	      </intent-filter>
+	    </service>
+	    <receiver
+		    android:name=".BootReceiver">
+		  	<intent-filter>
+		      <action
+		        android:name="android.intent.action.BOOT_COMPLETED">
+		      </action>
+		    </intent-filter>
+		</receiver>
+    </application>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="4"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+<!--     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>  -->
+	<uses-permission android:name="android.permission.READ_CALENDAR" />
+	<uses-permission android:name="android.permission.WRITE_CALENDAR" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest> 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/rtsmswallpaper_gradient_green"
+>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:background="#008E00"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+    android:background="@drawable/rtsmsicon_bar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="0.1"
+	/>
+    
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" Don't Go !"
+    android:layout_weight="1"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:id="@+id/homestatus_status"
+    />
+    <Button
+    android:background="@drawable/refreshbar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="0.1"
+	android:onClick="refreshbtnhandler"
+	/>
+    </LinearLayout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/RelativeLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content">
+<ListView 
+ android:smoothScrollbar="true"
+ android:scrollingCache="false"
+ android:scrollbarSize="15dp"
+ android:scrollbarThumbVertical="@drawable/scrollbar"
+ android:layout_width="fill_parent" 
+ android:layout_height="wrap_content" 
+ android:id="@id/android:list"
+ android:layout_alignParentTop="true">
+</ListView>
+<TextView android:text="HelloWorld"
+ android:layout_alignParentBottom="true"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content">
+</TextView>
+</RelativeLayout>
+</LinearLayout>

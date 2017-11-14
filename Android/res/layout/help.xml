@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget49"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+ android:id="@+id/screenname"
+ android:layout_weight="1"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="Help"
+ android:textStyle="bold"
+ android:gravity="center"
+ android:textSize="20dp"
+ android:textColor="#00FF00" />
+<LinearLayout
+android:layout_weight="1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget31"
+android:layout_width="wrap_content"
+android:textStyle="bold"
+android:gravity="center"
+android:layout_height="wrap_content"
+android:textSize="20dp"
+android:layout_weight="1"
+android:text="Help Manual" />
+</LinearLayout>
+<TextView
+android:id="@+id/widget33"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:paddingTop="50dp"
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:paddingBottom="50dp"
+android:text="Help Desciption........sdf,sdf,dsf,sdf,sd,fdsfs,df,sfsjfshfkshfkhskfhskfhskfhkshfkshdfkshfkhdfksdkfljs dfldsfs\n sdfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddslfjsldf \nfdsfsf dsfsjdlfsjdfljslfjldsjflsjdfljdsf"
+android:drawableRight="@drawable/icon"
+android:layout_weight="1" 
+>
+</TextView>
+<LinearLayout
+android:layout_weight="1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button android:text=" Previous "
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:drawableLeft="@drawable/back"
+	android:onClick="previousbtnClickHandler"
+	android:layout_weight="1" />
+<Button android:text=" Next "
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:drawableRight="@drawable/back"
+	android:onClick="nextbtnClickHandler"
+	android:layout_weight="1" />
+</LinearLayout>
+</LinearLayout>

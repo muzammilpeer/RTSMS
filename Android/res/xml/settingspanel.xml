@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+ android:title="Settings Panel" 
+ android:key="settingpanel"
+ >
+        <PreferenceCategory
+                android:title="Default RTSMS Filter">
+                <ListPreference
+                        android:title="Default Distance Filter"
+                        android:summary="Select the default minimum distance from you location for events"
+                        android:key="listDistance"
+                        android:defaultValue="2"
+                        android:entries="@array/listdistanceArray"
+                        android:entryValues="@array/listdistanceValues" />
+                <ListPreference
+                        android:title="Default Date Filter"
+                        android:summary="Select the default minimum date for filtering events"
+                        android:key="listDate"
+                        android:defaultValue="1"
+                        android:entries="@array/listdateArray"
+                        android:entryValues="@array/listdateValues" />
+                <ListPreference
+                        android:title="Default Risk Level Filter"
+                        android:summary="Select the default minimum level for filtering events"
+                        android:key="listRisk"
+                        android:defaultValue="1"
+                        android:entries="@array/listriskArray"
+                        android:entryValues="@array/listriskValues" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Notification/Alerts">
+        <Preference
+                android:title="Setup Notificiations"
+                android:summary="Push notification of events alert straight to your phone. Set up the filter and more."
+                android:key="customSetup" />
+        </PreferenceCategory>
+		<PreferenceCategory                
+			android:title="Data Customization">
+	        <ListPreference
+	                android:title="Distance Units"
+	                android:summary="Select the default distance unit for events/alerts"
+	                android:key="listUnit"
+	                android:defaultValue="1"
+	                android:entries="@array/listunitArray"
+	                android:entryValues="@array/listunitValues" />
+	        <CheckBoxPreference
+	                android:title="Show event distance"
+	                android:defaultValue="false"
+	                android:summary="select whether to display distance form you the event/danger zone."
+	                android:key="checkboxShowDistance" />
+		</PreferenceCategory>
+		<PreferenceCategory		
+			android:title="Other Options">
+		<Preference
+                android:title="Send Feedback"
+                android:summary="Please consider helping me by sending feedback, issues, or desired features."
+                android:key="customFeedback" />
+        <Preference
+                android:title="See Changelog"
+                android:summary="View what has changed during each version."
+                android:key="customLogs" />
+        <Preference
+                android:title="Rate App"
+                android:summary="Please consider rating the app, but please first check the F.A.Q. or email me for issues. I only occasionally check app comments and can't respond."
+                android:key="customRate" />
+        
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Location Options">
+	        <ListPreference
+	                android:title="Default Location Source"
+	                android:summary="Select the default Location source for tracking"
+	                android:key="listTrack"
+	                android:defaultValue="1"
+	                android:entries="@array/listtrackArray"
+	                android:entryValues="@array/listtrackValues" />
+	      </PreferenceCategory>                       
+</PreferenceScreen>

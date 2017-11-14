@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/rtsmswallpaper_gradient"
+  android:orientation="vertical">
+    <LinearLayout
+    android:orientation="horizontal"
+    android:background="#008E00"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+    android:background="@drawable/rtsmsicon_bar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="0.1"
+	/>
+    
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" RTSMS (Home Screen)!"
+    android:layout_weight="1"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:id="@+id/homestatus_status"
+    />
+    <Button
+    android:background="@drawable/btnrefresh"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="0.1"
+	android:onClick="refereshbtnhandler"
+	/>
+	
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="You are Safe"
+    android:layout_weight="1"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:id="@+id/home_status"
+    />
+    <ImageView
+	android:id="@+id/safe_bar"
+	android:src="@drawable/safe_bar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:visibility="invisible"
+	/>
+    <ImageView
+	android:id="@+id/unsafe_bar"
+	android:src="@drawable/unsafe_bar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:visibility="invisible"
+	/>
+    </LinearLayout>
+
+ <ScrollView
+	 android:smoothScrollbar="true"
+	 android:scrollingCache="false"
+	 android:scrollbarSize="15dp"
+	 android:scrollbarThumbVertical="@drawable/scrollbar"
+	android:id="@+id/widget102"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+   
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:gravity="center"
+  android:paddingLeft="25dp"
+  android:paddingRight="25dp"
+  android:orientation="vertical">
+
+<Button android:id="@+id/dontgos"
+  android:layout_width="215dp"
+  android:layout_height="70dp"
+  android:drawableLeft="@drawable/dontgos"
+  android:textStyle="bold"
+  android:gravity="center_vertical"
+  android:paddingLeft="15dp"
+  android:paddingRight="15dp"
+  android:soundEffectsEnabled="true"
+  android:text=" Don't Go"
+  android:onClick="dontgoClickHandler"  />
+<Button android:id="@+id/cates"
+  android:layout_width="215dp"
+  android:layout_height="70dp"
+  android:paddingLeft="15dp"
+  android:gravity="center_vertical"
+  android:paddingRight="15dp"
+  android:textStyle="bold"
+  android:soundEffectsEnabled="true"
+  android:onClick="catesClickHandler"
+  android:drawableLeft="@drawable/hisotryicon"
+  android:text=" Last Catastrophe"/>
+<Button android:id="@+id/nearby"
+  android:layout_width="215dp"
+  android:layout_height="70dp"
+  android:gravity="center_vertical"
+  android:soundEffectsEnabled="true"
+  android:textStyle="bold"
+  android:paddingLeft="15dp"
+  android:paddingRight="15dp"
+  android:onClick="nearbyClickHandler"
+  android:drawableLeft="@drawable/maps_menu"
+  android:text=" My Nearbys"/>
+
+<Button android:id="@+id/homepage"
+  android:layout_width="215dp"
+  android:layout_height="80dp"
+  android:soundEffectsEnabled="true"
+  android:textStyle="bold"
+  android:paddingLeft="15dp"
+  android:gravity="center_vertical"
+  android:paddingRight="15dp"
+  android:onClick="homepageClickHandler"
+  android:drawableLeft="@drawable/home_menu"
+  android:text="HomePage"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

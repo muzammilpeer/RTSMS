@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="status"
+        android:icon="@drawable/home_menu" />
+    <item android:id="@+id/maps"
+        android:title="maps"
+        android:icon="@drawable/maps_menu" />
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/light_menu" />
+    <item android:id="@+id/settingsopt"
+        android:title="Settings"
+        android:icon="@drawable/preferences_menu" />
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/exit_menu" />
+        <item android:id="@+id/icon"
+        android:icon="@drawable/icon" />
+    <item android:id="@+id/text"
+        android:title="Text" />
+    <item android:id="@+id/icontext"
+        android:title="Icon and text"
+        android:icon="@drawable/icon" />
+</menu>

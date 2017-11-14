@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/home"
+        android:title="Refresh"
+        android:icon="@drawable/home_menu" />
+    <item android:id="@+id/maps"
+        android:title="maps"
+        android:icon="@drawable/maps_menu" />
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/help_menu" />
+    <item android:id="@+id/settingsopt"
+        android:title="Settings"
+        android:icon="@drawable/preferences_menu" />
+    <item android:id="@+id/logout"
+        android:title="StopService and Exit"
+        android:icon="@drawable/exit_menu" />
+       
+</menu>

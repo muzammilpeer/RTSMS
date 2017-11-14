@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+<ScrollView 
+ android:smoothScrollbar="true"
+ android:scrollingCache="false"
+ android:scrollbarSize="15dp"
+ android:scrollbarThumbVertical="@drawable/scrollbar"
+		android:layout_weight=".2"
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent">
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              >
+    <TextView android:id="@+id/text"
+    		  android:text="About Me"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:textStyle="bold"
+              android:textSize="25dp"
+              android:layout_gravity="center"
+              android:textColor="#FFF"
+              />
+
+    <ImageView android:id="@+id/image"
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="10dp"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:src="@drawable/android_icon"
+               />
+    <TextView android:id="@+id/text"
+    		  android:text="RTSMS is location base application."
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:textColor="#FFF"
+              />
+
+</LinearLayout>
+</ScrollView>
+<!-- 
+<Button
+		android:id="@+id/nextQuestion"
+		android:layout_weight="1.1"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:background="@drawable/back"
+		android:onClick="backScreenHandler"
+		android:layout_alignParentBottom="true"
+	/> -->
+	<Button android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content" android:text="OK" android:id="@+id/OkButton"></Button>
+
+</LinearLayout>

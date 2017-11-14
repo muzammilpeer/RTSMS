@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+android:id="@+id/LinearLayoutt"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<ImageView android:id="@+id/icon"
+    android:layout_width="55px"
+    android:layout_height="55px" 
+    android:paddingBottom="3px" 
+    android:paddingTop="3px"
+    android:paddingLeft="3px"
+    android:paddingRight="3px"
+    android:scaleType="fitXY"/>
+
+<RelativeLayout android:id="@+id/RelativeLayoutt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout0t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:gravity="center_vertical" 
+	android:textStyle="bold" 
+	android:singleLine="true" 
+	android:ellipsize="end" 
+	android:textColor="#000096" 
+	android:textSize="12dp" 
+	android:id="@+id/locationtext" 
+	android:text="Karachi, Pakistan"></TextView>
+
+<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:gravity="center_vertical" 
+	android:textStyle="bold" 
+	android:singleLine="true" 
+	android:ellipsize="end" 
+	android:textColor="#ffffff" 
+	android:marqueeRepeatLimit="marquee_forever"
+	android:textSize="15dp" 
+	android:id="@+id/title" 
+	android:text="ITEM TITLE"></TextView>
+	<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="left" 
+	android:singleLine="false" 
+	android:ellipsize="end" 
+	android:layout_weight="1" 
+	android:id="@+id/distancetext" 
+	android:textColor="#000000" 
+	android:textSize="10dp" 
+	android:text="Distance: 54 Mi">
+</TextView>
+	
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="left" 
+	android:singleLine="false" 
+	android:ellipsize="end" 
+	android:layout_weight="1" 
+	android:id="@+id/postedbytext" 
+	android:textColor="#000000" 
+	android:textSize="10dp" 
+	android:text="Reported By Geo News">
+</TextView>
+<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="left"
+	android:layout_weight="1" 
+	android:textColor="#000000" 
+	android:singleLine="false" 
+	android:ellipsize="end" 
+	android:id="@+id/timeagotext" 
+	android:textSize="10dp" 
+	android:text="2(hours) ago">
+</TextView>
+</LinearLayout>
+
+
+<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:gravity="center_vertical" 
+	android:singleLine="false" 
+	android:ellipsize="end"
+	android:id="@+id/description" 
+	android:textSize="10dp" 
+	android:text="Item Brief Description">
+</TextView>
+</LinearLayout>
+<ImageView
+android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="4px"
+	android:paddingRight="5px" 
+	android:id="@+id/homepoint" 
+	android:src="@drawable/home_point"></ImageView>
+
+<!-- <TextView android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text=">" 
+	android:layout_alignParentRight="true" 
+	android:textSize="11dp" 
+	android:textStyle="bold" 
+	android:paddingRight="5px" 
+	android:id="@+id/Arrow">
+</TextView> -->
+</RelativeLayout>
+</LinearLayout>

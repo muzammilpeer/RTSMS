@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\rtsms\bin\RTSMSWebService.dll
+C:\inetpub\wwwroot\rtsms\bin\RTSMSWebService.pdb
+C:\inetpub\wwwroot\rtsms\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\rtsms\obj\Debug\RTSMSWebService.dll
+C:\inetpub\wwwroot\rtsms\obj\Debug\RTSMSWebService.pdb

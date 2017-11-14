@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:stretchColumns="1">
+	<TableRow>
+	<EditText
+		android:id="@+id/txtRadius"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Radius" 
+		/>
+	<Button android:id="@+id/btnSearch" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Search"  />
+	</TableRow>
+	<TableRow>
+	    <com.google.android.maps.MapView
+			android:layout_span="2"
+	        android:id="@+id/mapview"
+	      	android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:clickable="true"
+	        android:apiKey="0ksYtSF2s2XrXfcsGUI6-nl99T2NZc6kv1hpa9A"
+	    />
+    </TableRow>
+</TableLayout>

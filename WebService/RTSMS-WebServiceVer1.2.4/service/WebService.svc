@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#"  Service="RTSMSWebService.WebService" CodeBehind="WebService.svc.cs" %>
